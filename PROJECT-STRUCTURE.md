@@ -672,7 +672,7 @@ The `presentation/` directory is responsible for UI and state management in the 
     
     The `ui/` directory contains screen-specific UI logic and components. Each screen has its own dedicated folder, following this structure:
     
-    ```dart
+    ```markdown
     │── ui/
     │   │── home/             👈 (Folder for Home screen)
     │   │   │── logic/        👈 (State management for this screen)
@@ -793,7 +793,7 @@ We've gone through the entire **Flutter Clean Architecture** project structure i
 
 - **Final Directory Structure Overview**
 
-```dart
+```markdown
 │── assets/              👈 (Static assets: images, icons, animations)
 │── config/              👈 (Environment configuration files)
 │── fonts/               👈 (Custom fonts used in the app)
